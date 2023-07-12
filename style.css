@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    background-color: #212529;
+    color: whitesmoke;
+    font-family: 'Alice', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+body {
+    background-color: #212529;
+    /* color: white; */
+    box-sizing: border-box;
+}
+
+.collapse a::after {
+    background: hotpink;
+}
+
+.header {
+    width: 100%;
+    background-image: url("raj2.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Merienda', cursive;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+.intro {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    background-color: transparent;
+}
+
+.intro>h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.intro>p {
+    font-family: 'Merienda', cursive;
+    
+}
+
+.intro h1 span {
+    font-family: 'Merienda', cursive;
+    color: hotpink;
+}
+
+#about {
+    padding: 50px 10%;
+}
+
+.info {
+    padding: 0 20px;
+}
+
+.pic img {
+    padding-top: 5px;
+    width: auto;
+    height: 400px;
+    border-radius: 15px;
+}
+
+#skills {
+    padding: 50px 10%;
+    /* border: 2px solid hotpink; */
+}
+
+.skill-list {
+    margin-top: 40px 10px;
+
+    padding: 5%;
+    position: relative;
+
+}
+
+.skill {
+    margin: 10px auto;
+    border-radius: 10px;
+    color: black;
+    background-image: linear-gradient(109.6deg, rgb(255, 132, 214) 11.2%, rgb(184, 187, 186) 80.2%);
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+.skill h2,
+p {
+    background-color: transparent;
+}
+#skills p{
+    color: black;
+    
+}
+
+#projects {
+    padding: 50px 10%;
+}
+
+.project-list {
+    margin-top: 40px;
+}
+
+.project {
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+#contact {
+    padding: 50px 10%;
+
+}
+
+.social-icons {
+
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+    transition: transform 0.5s;
+
+    color: #ffff;
+}
+
+.social-icons a:hover {
+    color: hotpink;
+    transform: translate(-5px);
+
+}
+
+.btn.btn-2 {
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background: hotpink;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(230, 205, 205, 0.6), #d4307d);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3 {
+    background-color: transparent;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer p {
+
+    background-color: transparent;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #11999E;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #212529;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #11999E;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #11999E;
+}
+
+@media only screen and (max-width:600px) {
+    .header {
+        background-image: url("raj-mob.png");
+    }
+
+    .intro>h1 {
+
+        font-family: 'Merienda', cursive;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .intro>p {
+        font-size: 10px;
+
+    }
+
+    .info {
+        padding: 5%;
+
+    }
+}
+    
